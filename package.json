@@ -1,0 +1,22 @@
+{
+  "name": "project_space",
+  "version": "1.0.0",
+  "description": "Landing Page fore coworking Space",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/webdesignmind/project_space.git"
+  },
+  "author": "Denis Aksenov",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/webdesignmind/project_space/issues"
+  },
+  "homepage": "https://github.com/webdesignmind/project_space#readme",
+  "devDependencies": {
+    "gulp": "^4.0.2"
+  }
+}
