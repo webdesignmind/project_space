@@ -1,0 +1,31 @@
+.space
+  padding: 80px 0
+  &-carts
+    display: grid
+    grid-template-columns: repeat(2, 1fr)
+    grid-template-rows: repeat(2, 1fr)
+    grid-gap: 20px
+    &__cart
+      padding: 30px 30px 30px 50px
+      background-color: $bg-cart
+      border-radius: 5px
+      display: flex
+      align-items: center
+      justify-content: space-between
+    &__text
+      max-width: 280px
+    &__title
+      font-family: Roboto
+      font-style: normal
+      font-weight: 500
+      font-size: 18px
+      line-height: 21px
+      color: $txt-color
+    &__subtitle
+      margin-top: 8px
+      font-family: Roboto
+      font-style: normal
+      font-weight: normal
+      font-size: 16px
+      line-height: 140.87%
+      color: $txt-color

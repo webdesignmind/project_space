@@ -7,6 +7,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="preconnect" href="https://fonts.gstatic.com">
   <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
   <link rel="stylesheet" href="../css/style.css">
   <title>Коворкинг Space</title>
 </head>
@@ -31,7 +32,7 @@
 
         <div class="header-contacts">
           <a href="tel:+79513539999" class="header-contacts__tel">+7 951 353-99-99</a>
-          <div class="header-contacts__adress">Малая Конюшенная, 17</div>
+          <a href="#" class="header-contacts__adress">Малая Конюшенная, 17</a>
         </div>
       </div>
       <!-- /.header-menu -->
@@ -44,14 +45,19 @@
   <section class="hero">
 
     <div class="container">
-      <h1 class="hero-title">Креативное пространство
-        для работы и вдохновения</h1>
+      <div class="hero-content">
+        <div class="hero-text">
+          <h1 class="hero-title">Креативное пространство
+            для работы и вдохновения</h1>
 
-      <p class="hero-subtitle">Лучший коворкинг для генерации твоих идей</p>
+          <p class="hero-subtitle">Лучший коворкинг для генерации твоих идей</p>
 
-      <button class="button hero-button">Забронировать место</button>
+          <button class="button hero-button">Забронировать место</button>
+        </div>
+        <!-- /.hero-text -->
 
-      <img src="img/1920/main_img.svg" alt="main image" class="hero-image">
+        <img src="img/1920/main_img.svg" alt="main image" class="hero-image">
+      </div>
     </div>
     <!-- /.container -->
 
@@ -64,45 +70,45 @@
       <h2 class="title">У нас вы найдете</h2>
       <p class="subtitle">Все что вам нужно уже есть у нас</p>
 
-      <div class="adventages-items">
+      <div class="advantages-items">
 
-        <div class="adventages-items__item">
-          <img src="img/1920/Vector-5.svg" alt="icon:orgtech" class="adventages-items__item--img">
-          <h3 class="adventages-items__item--title">Оргтехника</h3>
-          <p class="adventages-items__item--subtitle">Услуги распечатки и копирования для продуктивной работы</p>
+        <div class="advantages-items__item">
+          <img src="img/1920/Vector-5.svg" alt="icon:orgtech" class="advantages-items__item--img">
+          <h3 class="advantages-items__item--title">Оргтехника</h3>
+          <p class="advantages-items__item--subtitle">Услуги распечатки и копирования для продуктивной работы</p>
         </div>
 
-        <div class="adventages-items__item">
-          <img src="img/1920/Vector-2.svg" alt="icon:coffee" class="adventages-items__item--img">
-          <h3 class="adventages-items__item--title">Бесплатный чай, кофе, печеньки</h3>
-          <p class="adventages-items__item--subtitle">В свободном доступе для всех участников пространства</p>
+        <div class="advantages-items__item">
+          <img src="img/1920/Vector-2.svg" alt="icon:coffee" class="advantages-items__item--img">
+          <h3 class="advantages-items__item--title">Бесплатный чай, кофе, печеньки</h3>
+          <p class="advantages-items__item--subtitle">В свободном доступе для всех участников пространства</p>
         </div>
 
-        <div class="adventages-items__item">
-          <img src="img/1920/Vector-3.svg" alt="icon:safe" class="adventages-items__item--img">
-          <h3 class="adventages-items__item--title">Шкафчики для вещей</h3>
-          <p class="adventages-items__item--subtitle">Вы можете бесплатно оставить
+        <div class="advantages-items__item">
+          <img src="img/1920/Vector-3.svg" alt="icon:safe" class="advantages-items__item--img">
+          <h3 class="advantages-items__item--title">Шкафчики для вещей</h3>
+          <p class="advantages-items__item--subtitle">Вы можете бесплатно оставить
             личные вещи на хранение</p>
         </div>
 
-        <div class="adventages-items__item">
-          <img src="img/1920/Vector-4.svg" alt="icon:internet" class="adventages-items__item--img">
-          <h3 class="adventages-items__item--title">Быстрый интернет</h3>
-          <p class="adventages-items__item--subtitle">Бесперебойный и быстрый интернет на всей территории пространства
+        <div class="advantages-items__item">
+          <img src="img/1920/Vector-4.svg" alt="icon:internet" class="advantages-items__item--img">
+          <h3 class="advantages-items__item--title">Быстрый интернет</h3>
+          <p class="advantages-items__item--subtitle">Бесперебойный и быстрый интернет на всей территории пространства
           </p>
         </div>
 
-        <div class="adventages-items__item">
-          <img src="img/1920/Vector-1.svg" alt="icon:place" class="adventages-items__item--img">
-          <h3 class="adventages-items__item--title">Удобное расположение</h3>
-          <p class="adventages-items__item--subtitle">Мы находимся в центре города, рядом
+        <div class="advantages-items__item">
+          <img src="img/1920/Vector-1.svg" alt="icon:place" class="advantages-items__item--img">
+          <h3 class="advantages-items__item--title">Удобное расположение</h3>
+          <p class="advantages-items__item--subtitle">Мы находимся в центре города, рядом
             с метро Невский проспект</p>
         </div>
 
-        <div class="adventages-items__item">
-          <img src="img/1920/Vector.svg" alt="icon:meeting room" class="adventages-items__item--img">
-          <h3 class="adventages-items__item--title">Переговорная</h3>
-          <p class="adventages-items__item--subtitle">Комната, в которой ваши встречи пройдут максимально плодотворно
+        <div class="advantages-items__item">
+          <img src="img/1920/Vector.svg" alt="icon:meeting room" class="advantages-items__item--img">
+          <h3 class="advantages-items__item--title">Переговорная</h3>
+          <p class="advantages-items__item--subtitle">Комната, в которой ваши встречи пройдут максимально плодотворно
           </p>
         </div>
 
@@ -114,6 +120,232 @@
   </section>
   <!-- /.advantages -->
 
+  <section class="space">
+    <div class="container">
+      <h2 class="title">Пространство коворкинга</h2>
+      <p class="subtitle">Выберите место где вам будет комфортно</p>
+
+      <div class="space-carts">
+
+        <div class="space-carts__cart">
+          <img src="img/1920/event.svg" alt="img event" class="space-carts__image">
+          <div class="space-carts__text">
+            <span class="space-carts__title">Ивент-площадка</span>
+            <p class="space-carts__subtitle">
+              Универсальные площадки для конференций, лекций и мастер-классов
+            </p>
+          </div>
+        </div>
+
+        <div class="space-carts__cart">
+          <img src="img/1920/office.svg" alt="img office" class="space-carts__image">
+          <div class="space-carts__text">
+            <span class="space-carts__title">Смарт-офисы</span>
+            <p class="space-carts__subtitle">
+              Готовые персональные офисы с мебелью для команд и индивидуальной работы
+            </p>
+          </div>
+        </div>
+
+        <div class="space-carts__cart">
+          <img src="img/1920/talk.svg" alt="img meeting room" class="space-carts__image">
+          <div class="space-carts__text">
+            <span class="space-carts__title">Переговорные комнаты</span>
+            <p class="space-carts__subtitle">
+              Переговорные комнаты до 15 человек, для совещаний, презентаций и семинаров
+            </p>
+          </div>
+        </div>
+
+        <div class="space-carts__cart">
+          <img src="img/1920/coworking.svg" alt="img coworking" class="space-carts__image">
+          <div class="space-carts__text">
+            <span class="space-carts__title">Коворкинг</span>
+            <p class="space-carts__subtitle">
+              Рабочие места в закрытой зоне и open-space пространстве со всей необходимой инфраструктурой
+            </p>
+          </div>
+        </div>
+
+      </div>
+      <!-- /.space-carts -->
+    </div>
+    <!-- /.container -->
+  </section>
+  <!-- /.space -->
+
+  <section class="tariffs">
+    <div class="container">
+      <h2 class="title">Тарифы</h2>
+      <p class="subtitle">Найдите для себя что вам подходит</p>
+
+      <div class="tariffs-cards">
+        <div class="tariffs-cards__card">
+          <div class="tariffs-cards__text">
+            <span class="tariffs-cards__title">Место на день</span>
+            <p class="tariffs-cards__subtitle">Любой open-space</p>
+            <span class="tariffs-cards__cost">1 500 ₽</span>
+            <ul class="tariffs-cards__list">
+              <li class="tariffs-cards__items">
+                <div class="tariffs-cards__item">
+                  <img src="../src/img/1920/bullets.svg" alt="bullets" class="tariffs-cards__item--image">
+                  <p class="tariffs-cards__item--text">Пользование кухней</p>
+                </div>
+              </li>
+              <li class="tariffs-cards__items">
+                <div class="tariffs-cards__item">
+                  <img src="../src/img/1920/bullets.svg" alt="bullets" class="tariffs-cards__item--image">
+                  <p class="tariffs-cards__item--text">Случайное рабочее место</p>
+                </div>
+              </li>
+            </ul>
+          </div>
+          <!-- /.tariffs-cards__text -->
+          <button class="tariffs-cards__btn button">Забронировать место</button>
+        </div>
+
+        <div class="tariffs-cards__card">
+          <div class="tariffs-cards__text">
+            <span class="tariffs-cards__title">Тариф PRO</span>
+            <p class="tariffs-cards__subtitle">Тихая и средние рабочие зоны</p>
+            <span class="tariffs-cards__cost">17 000 ₽</span>
+            <ul class="tariffs-cards__list">
+              <li class="tariffs-cards__items">
+                <div class="tariffs-cards__item">
+                  <img src="../src/img/1920/bullets.svg" alt="bullets" class="tariffs-cards__item--image">
+                  <p class="tariffs-cards__item--text">Фиксированное рабочее место</p>
+                </div>
+              </li>
+              <li class="tariffs-cards__items">
+                <div class="tariffs-cards__item">
+                  <img src="../src/img/1920/bullets.svg" alt="bullets" class="tariffs-cards__item--image">
+                  <p class="tariffs-cards__item--text">Работа в средней и тихой зонах</p>
+                </div>
+              </li>
+              <li class="tariffs-cards__items">
+                <div class="tariffs-cards__item">
+                  <img src="../src/img/1920/bullets.svg" alt="bullets" class="tariffs-cards__item--image">
+                  <p class="tariffs-cards__item--text">5 часов переговорных комнат в месяц</p>
+                </div>
+              </li>
+              <li class="tariffs-cards__items">
+                <div class="tariffs-cards__item">
+                  <img src="../src/img/1920/bullets.svg" alt="bullets" class="tariffs-cards__item--image">
+                  <p class="tariffs-cards__item--text">Пользование кухней и лаунж-зоной</p>
+                </div>
+              </li>
+              <li class="tariffs-cards__items">
+                <div class="tariffs-cards__item">
+                  <img src="../src/img/1920/bullets.svg" alt="bullets" class="tariffs-cards__item--image">
+                  <p class="tariffs-cards__item--text">Посещение внутренних мероприятий</p>
+                </div>
+              </li>
+            </ul>
+          </div>
+          <button class="tariffs-cards__btn button">Забронировать место</button>
+        </div>
+
+        <div class="tariffs-cards__card">
+          <div class="tariffs-cards__text">
+            <span class="tariffs-cards__title">Тариф Lite</span>
+            <p class="tariffs-cards__subtitle">Громкая зона</p>
+            <span class="tariffs-cards__cost">14 000 ₽</span>
+            <ul class="tariffs-cards__list">
+              <li class="tariffs-cards__items">
+                <div class="tariffs-cards__item">
+                  <img src="../src/img/1920/bullets.svg" alt="bullets" class="tariffs-cards__item--image">
+                  <p class="tariffs-cards__item--text">3 часа переговорных комнат в месяцй</p>
+                </div>
+              </li>
+              <li class="tariffs-cards__items">
+                <div class="tariffs-cards__item">
+                  <img src="../src/img/1920/bullets.svg" alt="bullets" class="tariffs-cards__item--image">
+                  <p class="tariffs-cards__item--text">Нефиксированное рабочее место</p>
+                </div>
+              </li>
+              <li class="tariffs-cards__items">
+                <div class="tariffs-cards__item">
+                  <img src="../src/img/1920/bullets.svg" alt="bullets" class="tariffs-cards__item--image">
+                  <p class="tariffs-cards__item--text">Пользование кухней и лаунж-зоной</p>
+                </div>
+              </li>
+              <li class="tariffs-cards__items">
+                <div class="tariffs-cards__item">
+                  <img src="../src/img/1920/bullets.svg" alt="bullets" class="tariffs-cards__item--image">
+                  <p class="tariffs-cards__item--text">Посещение внутренних мероприятий</p>
+                </div>
+              </li>
+            </ul>
+          </div>
+          <!-- /.tariffs-cards__text -->
+          <button class="tariffs-cards__btn button">Забронировать место</button>
+        </div>
+      </div>
+      <!-- /.tariffs-cards -->
+    </div>
+    <!-- /.container -->
+  </section>
+  <!-- /.tariffs -->
+
+  <section class="gallery">
+    <div class="container">
+      <h2 class="title">Наши фото</h2>
+      <p class="subtitle">Посмотрите как у нас уютно и красиво</p>
+
+
+    </div>
+    <!-- /.container -->
+  </section>
+  <!-- /.gallery -->
+
+  <section class="review">
+    <div class="container">
+
+      <h2 class="title">Почитайте отзывы наших резидентов</h2>
+      <p class="subtitle">Мы прислушиваемся к нашим гостям</p>
+
+      <!-- Slider main container -->
+      <div class="review-swiper__container">
+        <!-- Additional required wrapper -->
+        <div class="review-swiper__wrapper">
+          <!-- Slides -->
+          <div class="review-swiper__slide">
+            <div class="review-container">
+              <img src="img/1920/avatar-1.png" alt="photo alex koryagin" class="review-avatar">
+              <div class="review-txt">
+                <p class="review-txt__name">Александр Корягин, фрилансер</p>
+                <p class="review-txt__text">
+                  Отличный коворкинг, лучший из всех известных мне
+                  в Санкт-Петербурге. Пришел, сел, подключился к хорошему wi-fi и начал работать без каких-либо
+                  отвлекающих факторов.
+                  Также хотел бы отметить дружелюбный, отзывчивый персонал и интересных соседей.
+                </p>
+              </div>
+              <a href="https://vk.com/" class="review-social">
+                <img src="img/1920/VK.svg" alt="icon vk" class="review-social__img"></img>
+              </a>
+            </div>
+            <!-- /.review-container -->
+          </div>
+          <div class="review-swiper__slide">Slide 2</div>
+          <div class="review-swiper__slide">Slide 3</div>
+        </div>
+        <!-- If we need pagination -->
+        <div class="review-swiper__pagination"></div>
+
+        <!-- If we need navigation buttons -->
+        <button class="review-swiper__button-prev"></button>
+        <button class="review-swiper__button-next"></button>
+
+      </div>
+    </div>
+    <!-- /.container -->
+  </section>
+  <!-- /.review -->
+
+
+  <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+  <script src="js/main.js"></script>
 </body>
 
 </html>

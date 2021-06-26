@@ -1,0 +1,42 @@
+.advantages
+  margin-top: 230px
+  padding: 80px 0
+  background-color: $bg-color
+  &-items
+    padding: 0 146px
+    display: grid
+    grid-template-columns: repeat(3, 1fr)
+    grid-template-rows: repeat(2, 1fr)
+    grid-column-gap: 65px
+    grid-row-gap: 70px
+    &__item
+      display: flex
+      flex-direction: column
+      align-items: center
+      &--img
+        width: 60px
+        height: 60px
+        margin-bottom: 25px
+        color: $txt-color
+      &--title
+        font-family: Roboto
+        font-style: normal
+        font-weight: 500
+        font-size: 18px
+        line-height: 21px
+        text-align: center
+        color: $txt-color
+        margin-bottom: 5px
+      &--subtitle
+        font-family: Roboto
+        font-style: normal
+        font-weight: normal
+        font-size: 16px
+        line-height: 140.87%
+        text-align: center
+        color: $txt-color
+
+.title
+  margin-bottom: 15px
+.subtitle
+  margin-bottom: 70px
