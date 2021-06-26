@@ -11,7 +11,8 @@
         "../src/sass/blocks/_space.sass",
         "../src/sass/blocks/_tariff.sass",
         "../src/sass/blocks/_gallery.sass",
-        "../src/sass/blocks/_review.sass"
+        "../src/sass/blocks/_review.sass",
+        "../src/sass/blocks/_contacts.sass"
     ],
     "names": [],
     "file": "style.css"
