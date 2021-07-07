@@ -18,7 +18,8 @@
   "homepage": "https://github.com/webdesignmind/project_space#readme",
   "devDependencies": {
     "browser-sync": "^2.26.14",
-    "gulp": "^4.0.2"
+    "gulp": "^4.0.2",
+    "gulp-sass": "^5.0.0"
   },
   "dependencies": {
     "swiper": "^6.7.1"
