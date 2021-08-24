@@ -1,5 +1,5 @@
 {
-  "name": "project_space",
+  "name": "project-space",
   "version": "1.0.0",
   "description": "Landing Page fore coworking Space",
   "main": "index.js",
@@ -17,7 +17,7 @@
   },
   "homepage": "https://github.com/webdesignmind/project_space#readme",
   "devDependencies": {
-    "browser-sync": "^2.26.14",
+    "browser-sync": "^2.27.5",
     "gulp": "^4.0.2",
     "gulp-sass": "^5.0.0"
   },

@@ -1,4 +1,4 @@
-const swiper = new Swiper(".review-swiper__container", {
+const swiper = new Swiper(".swiper-container", {
   // Optional parameters
   direction: "horizontal",
   loop: true,
@@ -10,7 +10,7 @@ const swiper = new Swiper(".review-swiper__container", {
 
   // Navigation arrows
   navigation: {
-    nextEl: ".review-swiper__button-next",
-    prevEl: ".review-swiper__button-prev",
+    nextEl: ".review-swiper__button--prev",
+    prevEl: ".review-swiper__button--next",
   },
 });
